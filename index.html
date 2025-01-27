@@ -17,9 +17,9 @@
         colors: {
           clifford: '#da373d',
         }
+        }
       }
     }
-  }
 </script>
 </head>
 <body>
@@ -331,22 +331,26 @@
 
    </main>
 
-   <footer class="bg-orange-100 text-gray-700 py-10 
+   <footer class="bg-gradient-to-r from-[#ff4d0036] to-[#ff44004b] text-gray-700 py-10 
    px-4 md:px-16">
-   <div class="w-9/12 mx-auto">
+   <div class=" w-9/12 mx-auto">
 
     <div class="mb-8 flex justify-between">
       <img class="mb-8" src="images/cup.png">
       <div class="felx items-center">
-        <h2>Ready to get started</h2>
+        <div class="flex items-center">
+        <h2 class="mt-8 mr-10">Ready to get started</h2>
         <button class="bg-gradient-to-r from-orange-500 to-red-500
         px-5 py-3 rounded-lg text-white font-bold mt-6">Get Started</button>
+        </div>
 
       </div>
 
     </div>
 
+
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+
       <!-- first -->
       <div>
         <h3 class="font-semibold text-lg mb-3">Quick Links</h3>
@@ -367,9 +371,9 @@
 
       </div>
 
-    </div>
+    <!-- </div> -->
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+    <!-- <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4"> -->
       <!-- first -->
       <div>
         <h3 class="font-semibold text-lg mb-3">Our Service</h3>
@@ -390,9 +394,9 @@
 
       </div>
 
-    </div>
+    <!-- </div> -->
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+   
       <!-- first -->
       <div>
         <h3 class="font-semibold text-lg mb-3">Help</h3>
@@ -405,17 +409,31 @@
           </li>
         </ul>
       </div>
-    </div>
+     
 
     <div class="font-semibold text-lg mb-3">
       <h3>Subscribe to our<br> newsletter</h3>
       <div>
         <input class="bg-transparent border-b-2 border-black
         md:w-5/6 w-4/6" type="text" placeholder="Email address ">
-        <i class="fa-solid fa-chevron-right"></i>
+        <i class="fa-solid text-white fa-chevron-right items-center px-3 py-3 
+        bg-gradient-to-r from-[#ff4d00] to-[#ff0000b7] h-10 w-10 rounded-full"></i>
+      </div>
+
+      <div class="flex gap-5 mt-5 w-7">
+        <img src="images/facebook.png">
+        <img src="images/github.png">
+        <img src="images/twitter.png">
+        <img src="images/instagram.png">
+     
       </div>
 
     </div>
+
+    <!-- <div class="text-center">
+      <p class="text-gray-400">© 2027 UIDesign.to - All rights reserved.</p>
+
+    </div> -->
 
    </div>
   </footer>
